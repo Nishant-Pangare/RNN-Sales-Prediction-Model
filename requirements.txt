@@ -11,3 +11,5 @@ plotly==5.9.0
 mysql-connector==2.2.9
 keras==3.3.3
 tensorflow==2.16.1
+keras-models==0.0.7
+
