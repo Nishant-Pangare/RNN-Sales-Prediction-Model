@@ -6,6 +6,8 @@ from keras.models import Sequential
 from keras.layers import Dense, LSTM
 import mysql.connector
 import datetime
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 app = Flask(__name__)
 
