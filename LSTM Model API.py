@@ -144,7 +144,7 @@ def predict_next_month(model, scaler, scaled_data, df, max_date):
         print(f"Error: {e}")
         return None
 
-@app.route('/predict-sales', methods=['GET'])
+@app.route('/lstm-sales-prediction', methods=['GET'])
 def predict_sales():
     # Connect to MySQL database
     conn = connect_to_database()
